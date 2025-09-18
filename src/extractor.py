@@ -10,7 +10,11 @@ class MemoryExtractor:
         self.client = openai.OpenAI(api_key=api_key, base_url=base_url)
         self.model = model
 
-    def extract_facts(self, conversation: List[Dict[str, str]], existing_memories: Optional[List[Dict[str, Any]]] = None) -> List[Dict[str, Any]]:
+    def extract_facts(
+        self,
+        conversation: List[Dict[str, str]],
+        existing_memories: Optional[List[Dict[str, Any]]] = None,
+    ) -> List[Dict[str, Any]]:
         """
         Extract key facts from a conversation, handling both new facts and updates to existing facts.
         """
@@ -58,7 +62,7 @@ class MemoryExtractor:
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.2,
-                response_format={"type": "json_object"}
+                response_format={"type": "json_object"},
             )
 
             response_content = response.choices[0].message.content
@@ -73,10 +77,14 @@ class MemoryExtractor:
                     "extracted_from": f"turn_{len(conversation)}",
                     "confidence": fact["confidence"],
                     "timestamp": datetime.now().isoformat(),
-                    "is_update": fact["is_update"]
+                    "is_update": fact["is_update"],
                 }
 
-                if fact["is_update"] and "previous_value" in fact and fact["previous_value"]:
+                if (
+                    fact["is_update"]
+                    and "previous_value" in fact
+                    and fact["previous_value"]
+                ):
                     memory["previous_value"] = fact["previous_value"]
 
                 memories.append(memory)
