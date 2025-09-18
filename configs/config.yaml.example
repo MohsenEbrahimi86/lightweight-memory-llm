@@ -1,0 +1,14 @@
+api:
+  base_url: "https://llm.internal.memorybridgeai.com/v1"
+  api_key: "YOUR_API_KEY_HERE"  # Replace with actual API key
+  chat_model: "vertex_ai/gemini-2.5-flash"
+  embedding_model: "vertex_ai/gemini-embedding-001"
+
+memory:
+  store_path: "data/memory_store.json"
+  embedding_dim: 768  # Assuming the embedding dimension
+  max_memories_retrieved: 5
+
+benchmark:
+  dataset_path: "data/conversations.json"
+  results_path: "benchmark/results/"
