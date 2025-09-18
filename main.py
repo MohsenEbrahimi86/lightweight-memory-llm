@@ -5,6 +5,7 @@ from src.store import MemoryStore
 from src.retriever import Retriever
 from benchmark.generate_data import ConversationGenerator
 from benchmark.evaluate import Evaluator
+from typing import List, Dict, Any, Tuple
 
 
 class MemorySystem:
