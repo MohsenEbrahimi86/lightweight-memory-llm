@@ -1,0 +1,2775 @@
+[
+  {
+    "fact_id": "f_1758234677_0",
+    "content": "User has been really into hiking lately.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114686",
+    "is_update": false,
+    "previous_value": "User's hobby of hiking is new.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234677_1",
+    "content": "User is passionate about long-distance trails.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335659",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_2",
+    "content": "User hiked a section of the Appalachian Trail last summer.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335666",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_3",
+    "content": "User hiked for a few weeks last summer.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335670",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_4",
+    "content": "User hiked with their dog.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335674",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_5",
+    "content": "User's dog, Max, is a golden retriever.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:08.311220",
+    "is_update": false,
+    "previous_value": "User's dog's name is Max.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234677_6",
+    "content": "User faced challenges with humidity on the Eastern sections of the Appalachian Trail.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335682",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_7",
+    "content": "User faced challenges with mosquitos on the Eastern sections of the Appalachian Trail.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335686",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_8",
+    "content": "User's portable water filter was indispensable during their Appalachian Trail hike.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335690",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_9",
+    "content": "User's dog, Max, enjoyed splashing in streams during their Appalachian Trail hike.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335693",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_10",
+    "content": "User is no longer in Denver, Colorado.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:10:21.012040",
+    "is_update": false,
+    "previous_value": "User's current residence is Denver, Colorado.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234677_11",
+    "content": "The Long Trail in Vermont is on user's radar.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335701",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_12",
+    "content": "User is looking for a more remote trail for their next big backpacking trip.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335704",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_13",
+    "content": "User is looking for a less trafficked trail for their next big backpacking trip.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335708",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_14",
+    "content": "User's next big trip will be a backpacking trip.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335711",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234677_15",
+    "content": "User plans to hike with Max on their next big backpacking trip.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:17.335714",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234680_0",
+    "content": "User's first name is Emily.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:12:11.272920",
+    "is_update": false,
+    "previous_value": "User's first name is Chris.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234680_1",
+    "content": "User is into sustainable gardening.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:02:18.158924",
+    "is_update": false,
+    "previous_value": "User enjoys gardening.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234680_2",
+    "content": "User is particularly fond of growing herbs.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:01:20.876547",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234680_3",
+    "content": "User is growing basil this year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584786",
+    "is_update": false,
+    "previous_value": "User grows basil.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234680_4",
+    "content": "User uses basil in almost everything they cook.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:01:20.876560",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234680_5",
+    "content": "User is passionate about reading.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:26.997421",
+    "is_update": false,
+    "previous_value": "User enjoys reading.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234680_6",
+    "content": "User has a cat.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:01:20.876574",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234680_7",
+    "content": "User has a golden retriever named Max.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:09:42.713948",
+    "is_update": false,
+    "previous_value": "User has a dog named Buddy.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234689_2",
+    "content": "User prefers challenging climbs when hiking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:29.001638",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234689_3",
+    "content": "User prefers steeper climbs when hiking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:29.001643",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234689_4",
+    "content": "User has a golden retriever.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:29.001646",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234689_6",
+    "content": "User's dog, Max, often joins user on hiking adventures.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:08.311223",
+    "is_update": false,
+    "previous_value": "User's dog, Max, sometimes joins on easier trails.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234693_0",
+    "content": "User is thinking of visiting a national park for their next vacation.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:33.070578",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234693_1",
+    "content": "User's favorite color is blue.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:33.070598",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234693_2",
+    "content": "User's favorite type of food is Mexican.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:11.458282",
+    "is_update": false,
+    "previous_value": "User is a big fan of Italian food.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234693_3",
+    "content": "User especially likes pasta.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:33.070606",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234693_4",
+    "content": "User once spent a month backpacking through Italy.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:33.070619",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234693_5",
+    "content": "User found their backpacking trip through Italy amazing.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:33.070623",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_0",
+    "content": "User is looking forward to a relaxing trip for their next vacation.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924339",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_1",
+    "content": "User works as a UX researcher.",
+    "extracted_from": "turn_4",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:07:29.196255",
+    "is_update": false,
+    "previous_value": "User works as a graphic designer.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234717_2",
+    "content": "User primarily works on backend systems.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:42.882622",
+    "is_update": false,
+    "previous_value": "User's main professional focus is web design.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234717_3",
+    "content": "User recently adopted a rescue dog.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924378",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_4",
+    "content": "User's recently adopted dog is a Golden Retriever.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924383",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_5",
+    "content": "User's recently adopted dog's name is Pixel.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924390",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_6",
+    "content": "User considers Pixel family.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924396",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_7",
+    "content": "Pixel loves the outdoors.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924403",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_8",
+    "content": "Pixel loves swimming.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924407",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_9",
+    "content": "User and Pixel go to a local lake every weekend.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924413",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_10",
+    "content": "User is looking for a dog-friendly vacation spot for their next vacation.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924419",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_11",
+    "content": "User is looking for a vacation spot with opportunities for Pixel to splash around.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924424",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234717_12",
+    "content": "User is considering a vacation spot with a beach for their next vacation.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:01:57.924429",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234725_0",
+    "content": "User's favorite hobby is playing guitar.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:10:21.012035",
+    "is_update": false,
+    "previous_value": "User's main hobby is photography.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234725_1",
+    "content": "User enjoys capturing the outdoors through photography.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:05.381208",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234725_3",
+    "content": "User's favorite hobby is landscape photography.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:24.403974",
+    "is_update": false,
+    "previous_value": "User's main hobby is wildlife photography.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234725_4",
+    "content": "User loves photographing scenic vistas.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:05.381222",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234725_5",
+    "content": "User is saving up for a new wide-angle lens.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:05.381226",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234725_6",
+    "content": "User wants a wide-angle lens for sweeping shots.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:05.381230",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234725_7",
+    "content": "Rocky Mountain National Park is on user's list of places to visit.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:05.381235",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234725_8",
+    "content": "User is planning a trip to Utah next year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:05.381239",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234725_9",
+    "content": "User recently visited Zion National Park.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605393",
+    "is_update": false,
+    "previous_value": "User plans to explore Zion National Park.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234725_10",
+    "content": "User plans to explore Bryce Canyon National Park.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:05.381247",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234738_2",
+    "content": "User is interested in restoring local ecosystems.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:02:18.158930",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234738_3",
+    "content": "User's garden focuses on drought-tolerant species.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:02:18.158935",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234738_5",
+    "content": "User's work involves assessing ecological impacts.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:02:18.158945",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234738_6",
+    "content": "User's work involves proposing mitigation strategies.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:02:18.158950",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234738_7",
+    "content": "User's work frequently includes native habitat restoration.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:02:18.158954",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234738_8",
+    "content": "User's gardening serves as a hands-on lab for their professional interests.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:02:18.158960",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234759_1",
+    "content": "User is looking into home improvement projects.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:39.506698",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234759_3",
+    "content": "User moved to Colorado last year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343573",
+    "is_update": false,
+    "previous_value": "User moved to Seattle last month.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234759_5",
+    "content": "User's old house in Portland, Oregon, is being sold.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:39.506715",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234759_6",
+    "content": "User is focused on updating the kitchen in their Seattle home.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:39.506718",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234759_7",
+    "content": "User is interested in smart appliances for the kitchen update.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:02:39.506722",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234778_0",
+    "content": "User is planning a trip to Japan next spring.",
+    "extracted_from": "turn_4",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199555",
+    "is_update": false,
+    "previous_value": "User is planning a trip to Japan next year.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234778_1",
+    "content": "User is really into historical sites.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:13.458951",
+    "is_update": false,
+    "previous_value": "User is a big fan of historical sites.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234778_2",
+    "content": "User is planning to visit Kyoto.",
+    "extracted_from": "turn_4",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199585",
+    "is_update": false,
+    "previous_value": "User is hoping to visit Kyoto.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234778_4",
+    "content": "User is hoping to visit Japan during the cherry blossom season.",
+    "extracted_from": "turn_4",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:43.159091",
+    "is_update": false,
+    "previous_value": "User is aiming for cherry blossom season for their Japan trip.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234793_0",
+    "content": "User's trip to Japan is for next spring.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199631",
+    "is_update": false,
+    "previous_value": "User is planning a trip for next summer.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234793_2",
+    "content": "User's current residence is Portland.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:15.399242",
+    "is_update": true,
+    "previous_value": "User's current residence is Seattle.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234793_4",
+    "content": "User is considering places on the West Coast for their trip.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:13.458966",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234793_5",
+    "content": "User is considering a flight to Europe for their trip.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:13.458970",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234793_6",
+    "content": "User is particularly interested in ancient Roman history.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:13.458974",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234793_7",
+    "content": "User's budget for flights is usually around $800-$1000 round trip.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:13.458978",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234799_1",
+    "content": "User enjoys baking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:26.997438",
+    "is_update": false,
+    "previous_value": "User is passionate about baking.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234799_2",
+    "content": "User has recently gotten really into sourdough bread.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584750",
+    "is_update": false,
+    "previous_value": "User is passionate about making sourdough bread.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234799_3",
+    "content": "User has recently gotten really into baking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584745",
+    "is_update": false,
+    "previous_value": "User has been seriously into baking for about two years.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234799_4",
+    "content": "User mills their own flour sometimes.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:19.039045",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_0",
+    "content": "User's favorite place to hike is the Pacific Northwest.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764935",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_1",
+    "content": "User prefers hiking in the Pacific Northwest when the weather is good.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764955",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_2",
+    "content": "User's favorite national park is Yosemite National Park.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:27.854177",
+    "is_update": false,
+    "previous_value": "User's favorite park to hike in the Pacific Northwest is Mount Rainier National Park.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234813_3",
+    "content": "User prefers hiking in Mount Rainier National Park during summer.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764964",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_4",
+    "content": "User prefers hiking in summer because trails are clear.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764968",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_5",
+    "content": "User prefers hiking in summer because wildflowers are out.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764972",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_6",
+    "content": "User's dog, Buster, is a Labrador.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:15.399254",
+    "is_update": true,
+    "previous_value": "User's golden retriever's name is Buster.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234813_7",
+    "content": "User's golden retriever, Buster, loves coming along on hikes.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764980",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_8",
+    "content": "User sticks to dog-friendly trails when hiking with Buster.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764984",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_9",
+    "content": "Lakes Trail in Mount Rainier National Park is a dog-friendly trail.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764988",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_10",
+    "content": "Some easier loops near Paradise in Mount Rainier National Park are dog-friendly trails.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764992",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_11",
+    "content": "Buster carries his own water in a special pack.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.764996",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234813_12",
+    "content": "Buster is an experienced hiking companion.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:03:33.765000",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234847_2",
+    "content": "User's cat's name is Mittens.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:06:59.787946",
+    "is_update": false,
+    "previous_value": "User has a cat named Whiskers.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234847_3",
+    "content": "User's cat, Buddy, is fluffy.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:04:07.664392",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234847_5",
+    "content": "User loves capturing animals in their natural habitats through photography.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:04:07.664401",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234847_6",
+    "content": "User usually focuses on birds in wildlife photography.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:04:07.664405",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234847_7",
+    "content": "User is planning a trip to a local wetlands preserve next month.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:04:07.664408",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234847_8",
+    "content": "User plans to photograph migratory birds during their trip to the wetlands preserve.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:04:07.664412",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234861_1",
+    "content": "User recently picked up cycling.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:21.689923",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234861_3",
+    "content": "User's job as a graphic designer has demanding deadlines.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:21.689933",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234861_4",
+    "content": "User often works late due to demanding deadlines.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:21.689937",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234861_5",
+    "content": "User is mostly into road cycling.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:21.689941",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234861_6",
+    "content": "User lives in a fairly hilly area just outside the city.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:21.689946",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234861_7",
+    "content": "User is training for a charity cycling ride.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:21.689950",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234861_8",
+    "content": "The charity cycling ride is a 50-mile route.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:21.689954",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234867_0",
+    "content": "User loves spending weekends hiking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:27.854151",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234867_1",
+    "content": "User definitely prefers national parks for hiking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114791",
+    "is_update": false,
+    "previous_value": "User loves hiking especially in national parks.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234867_3",
+    "content": "User considers Yosemite National Park's scenery breathtaking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:27.854183",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234867_4",
+    "content": "User tries to go to Yosemite National Park once a year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:27.854187",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234867_5",
+    "content": "User wants to do multi-day treks in Yosemite.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:27.854191",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234867_6",
+    "content": "User is saving up for a new lightweight backpacking tent.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:27.854195",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234867_7",
+    "content": "User's current backpacking tent is too heavy for longer trips.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:27.854199",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234882_0",
+    "content": "User is freelance.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:42.308036",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234882_1",
+    "content": "User works remotely.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:42.308057",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234882_2",
+    "content": "User has been working remotely for about three years.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:42.308062",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234882_3",
+    "content": "User recently moved to Denver, Colorado.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:12:11.272943",
+    "is_update": false,
+    "previous_value": "User recently moved to Austin, Texas.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234882_6",
+    "content": "User specializes in UI/UX.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:04:42.308081",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234902_0",
+    "content": "User recently adopted a new pet.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659540",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234902_1",
+    "content": "User's recently adopted pet is named Buddy.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659561",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234902_2",
+    "content": "User's recently adopted pet, Buddy, is a Labrador.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659585",
+    "is_update": false,
+    "previous_value": "User initially stated their recently adopted pet, Buddy, is a golden retriever.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234902_3",
+    "content": "User is into coding.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659571",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234902_4",
+    "content": "User spends most evenings working on a personal coding project.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659576",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234902_5",
+    "content": "User's personal coding project is an app for tracking fitness goals.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659581",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234902_7",
+    "content": "User's personal coding project is a cross-platform app.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659591",
+    "is_update": true,
+    "previous_value": "User's personal coding project is a mobile app."
+  },
+  {
+    "fact_id": "f_1758234902_8",
+    "content": "User is building their app using React Native.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659595",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234902_9",
+    "content": "User's dog, Buddy, usually comes hiking with them.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114826",
+    "is_update": false,
+    "previous_value": "User plans to track their walks with Buddy using their fitness app.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234902_12",
+    "content": "User likes coding.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659627",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234902_14",
+    "content": "User works as a data analyst.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:32.519711",
+    "is_update": false,
+    "previous_value": "User works as a software engineer.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234902_15",
+    "content": "User codes in the evenings.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:02.659641",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234914_0",
+    "content": "User loves reading science fiction novels.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:47.234494",
+    "is_update": false,
+    "previous_value": "User is a big fan of sci-fi novels.",
+    "updated_from": "turn_4"
+  },
+  {
+    "fact_id": "f_1758234914_1",
+    "content": "User's favorite author is Ursula K. Le Guin.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:14.648189",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234914_2",
+    "content": "User's favorite book is 'Neuromancer'.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:33.488798",
+    "is_update": false,
+    "previous_value": "User's favorite book by Ursula K. Le Guin is 'The Dispossessed'.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234914_3",
+    "content": "User is passionate about fantasy novels.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:26.997426",
+    "is_update": false,
+    "previous_value": "User prefers fantasy over pure sci-fi.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234914_4",
+    "content": "Ursula K. Le Guin's Earthsea series holds a special place for the user.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:14.648204",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234914_5",
+    "content": "User likes Tolkien.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:14.648208",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234914_6",
+    "content": "User has read 'The Lord of the Rings' multiple times.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:14.648213",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234914_7",
+    "content": "User is learning to play the ukulele.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:14.648217",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234914_8",
+    "content": "User picked up playing the ukulele this year.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:14.648221",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234924_2",
+    "content": "User has lived in Seattle for about five years.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:24.403980",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234924_3",
+    "content": "User prefers sunset shots for photography.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:24.403986",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_0",
+    "content": "User recently took a trip to Europe.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027518",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_1",
+    "content": "User's favorite part of their recent Europe trip was visiting ancient ruins.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027538",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_2",
+    "content": "User loved seeing the Roman Colosseum on their recent Europe trip.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027543",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_3",
+    "content": "User started their recent Europe trip in Greece.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027547",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_4",
+    "content": "User started their recent Europe trip in Athens.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027552",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_5",
+    "content": "User visited Italy after Greece on their recent Europe trip.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027557",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_6",
+    "content": "User has a partner.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027561",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_7",
+    "content": "User's partner is a huge history buff.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027564",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_8",
+    "content": "User's partner is particularly interested in ancient Greek philosophy.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027568",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_9",
+    "content": "User spent a few days in Greece/Athens with their partner.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027572",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_10",
+    "content": "User prioritized visiting the Acropolis on their recent Europe trip.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027576",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_11",
+    "content": "User's partner is a professor of classical studies.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027580",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_12",
+    "content": "The user's recent Europe trip was a working vacation for their partner.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027584",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_13",
+    "content": "User and their partner sought places with historical significance and good local cuisine on their recent Europe trip.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027587",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234934_14",
+    "content": "Italy delivered on good local cuisine during user's recent Europe trip.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:05:34.027591",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234942_2",
+    "content": "User uses Python for work.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:42.882628",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234942_3",
+    "content": "User uses Node.js for work.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:42.882632",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234942_4",
+    "content": "User enjoys baking pastries.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:42.882637",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234942_5",
+    "content": "User is a big fan of sci-fi movies.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:42.882641",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234942_6",
+    "content": "User's all-time favorite movie is 'Blade Runner 2049'.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:32.519692",
+    "is_update": false,
+    "previous_value": "User's favorite sci-fi movie is Dune.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758234958_3",
+    "content": "User finds the scenery in Colorado incredible.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343601",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_4",
+    "content": "User is training for their first 14er.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343605",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_5",
+    "content": "User's first 14er will be Mount Quandary.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343609",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_6",
+    "content": "User plans to hike Mount Quandary later this summer.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343624",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_7",
+    "content": "User considers hiking a 14er a big step up from usual day hikes.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343628",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_8",
+    "content": "User is doing conditioning in the Roosevelt National Forest.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343632",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_9",
+    "content": "User is nervous about hiking Mount Quandary.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343640",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_10",
+    "content": "User is excited for the challenge of hiking Mount Quandary.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343648",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_11",
+    "content": "User loves pushing their physical limits.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343651",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_12",
+    "content": "User loves spending full days out in nature.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343655",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_13",
+    "content": "Spending full days out in nature is user's favorite way to de-stress.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343659",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_14",
+    "content": "User is thinking about investing in backpacking gear next spring.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343662",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234958_15",
+    "content": "User wants to extend trips into overnighters.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:05:58.343666",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234975_2",
+    "content": "User recently moved to Seattle.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:47.234484",
+    "is_update": false,
+    "previous_value": "User recently moved from Seattle.",
+    "updated_from": "turn_4"
+  },
+  {
+    "fact_id": "f_1758234975_4",
+    "content": "User works for the same company.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:15.399248",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758234983_3",
+    "content": "User's cat, Whiskers, loves to nap in sunbeams.",
+    "extracted_from": "turn_8",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:23.721823",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235003_1",
+    "content": "User's last name is Chan.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:43.159099",
+    "is_update": false,
+    "previous_value": "User's last name is Chen.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235003_2",
+    "content": "User is enjoying learning about different cultures.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:43.159072",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235003_3",
+    "content": "User is planning a trip to Asia for next year.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:43.159075",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235003_4",
+    "content": "User is leaning towards Japan for their Asia trip.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:43.159079",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235003_5",
+    "content": "User is a big fan of Japanese history.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199601",
+    "is_update": false,
+    "previous_value": "User is interested in Japan's rich history.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235003_6",
+    "content": "User loves trying local cuisine.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199610",
+    "is_update": false,
+    "previous_value": "User is interested in Japan's amazing food.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235003_8",
+    "content": "User acknowledges that peak cherry blossom viewing in most of Japan is late March to early April.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:06:43.159103",
+    "is_update": false,
+    "previous_value": "User initially believed cherry blossom season in Japan is in May.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235019_1",
+    "content": "User's cat, Mittens, loves fresh salmon.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:06:59.787967",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235019_2",
+    "content": "User adopted Mittens from a local shelter.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:06:59.787972",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235019_3",
+    "content": "User adopted Mittens about six months ago.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:06:59.787976",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235019_4",
+    "content": "Mittens was underweight when adopted.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:06:59.787981",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235019_5",
+    "content": "Mittens has gained a healthy amount of weight since adoption.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:06:59.787985",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235019_6",
+    "content": "User grows fresh dill in their garden.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:06:59.787989",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_1",
+    "content": "User's favorite type of trails have significant elevation changes.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114708",
+    "is_update": true,
+    "previous_value": "User prefers challenging climbs when hiking.; User prefers steeper climbs when hiking."
+  },
+  {
+    "fact_id": "f_1758235040_2",
+    "content": "User's favorite type of trails have great views.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114714",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_3",
+    "content": "User's favorite type of trails are especially in forested areas.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114718",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_5",
+    "content": "User prefers national parks out west for hiking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114806",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_6",
+    "content": "User lives pretty close to the Rocky Mountains.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114817",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_7",
+    "content": "User has many options for mountain trails within a day's drive.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114822",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_9",
+    "content": "User's favorite season for hiking is autumn.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114831",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_10",
+    "content": "User likes the crisp air in autumn for hiking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114836",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_11",
+    "content": "User likes the changing leaves in autumn for hiking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114840",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_12",
+    "content": "User's dog, Buddy, enjoys cooler weather.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114844",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235040_13",
+    "content": "User and Buddy can go for longer distances in cooler weather without Buddy overheating.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:20.114848",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235049_1",
+    "content": "User's hobby is watercolor painting.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:07:29.196251",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235049_3",
+    "content": "User works as a librarian.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:26.997449",
+    "is_update": false,
+    "previous_value": "User works as a software engineer.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235049_5",
+    "content": "User's current residence is Seattle.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:07.217806",
+    "is_update": false,
+    "previous_value": "User moved to Dallas last week.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235049_6",
+    "content": "User moved to Dallas for their new job.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:07:29.196271",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_0",
+    "content": "User prefers national parks for photography.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605362",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_1",
+    "content": "User prefers the Southwest for photography.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605384",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_2",
+    "content": "User prefers places with dramatic rock formations for photography.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605389",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_4",
+    "content": "User visited Zion National Park for photography.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605399",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_5",
+    "content": "User found Zion National Park amazing for capturing red rock canyons.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605403",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_6",
+    "content": "User is planning a trip for later this year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605407",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_7",
+    "content": "User is planning to attend the 'Red Rock Rhapsody' photography workshop.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605411",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_8",
+    "content": "The 'Red Rock Rhapsody' photography workshop focuses on capturing unique light and shadows.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605415",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_9",
+    "content": "The 'Red Rock Rhapsody' photography workshop focuses on Bryce Canyon.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605419",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_10",
+    "content": "The 'Red Rock Rhapsody' photography workshop focuses on Capitol Reef.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:07:36.605423",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235056_11",
+    "content": "User is actively seeking to refine their photography skills.",
+    "extracted_from": "turn_6",
+    "confidence": 0.9,
+    "timestamp": "2025-09-19T02:07:36.605427",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235069_1",
+    "content": "User is planning to visit Japan in late March or early April.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199576",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235069_2",
+    "content": "User is planning to visit Tokyo.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199581",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235069_4",
+    "content": "User's sister lives in Tokyo.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199588",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235069_5",
+    "content": "User will stay with their sister in Tokyo for a week.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199592",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235069_6",
+    "content": "User will spend a week exploring Kyoto's temples and gardens.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199597",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235069_8",
+    "content": "User is a big fan of the Edo period of Japanese history.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199606",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235069_10",
+    "content": "User's sister introduced them to 'monjayaki'.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199624",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235069_11",
+    "content": "User wants to have 'monjayaki' again.",
+    "extracted_from": "turn_6",
+    "confidence": 0.98,
+    "timestamp": "2025-09-19T02:07:49.199627",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235079_2",
+    "content": "User enjoys playing chess.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:07:59.499539",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_0",
+    "content": "User's first name is Alex.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796580",
+    "is_update": true,
+    "previous_value": "User's first name is Sarah.",
+    "updated_from": "turn_4"
+  },
+  {
+    "fact_id": "f_1758235095_1",
+    "content": "User is currently very interested in wildlife photography.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356755",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_2",
+    "content": "User recently took a trip to Costa Rica.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356761",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_3",
+    "content": "User tried to photograph quetzals in Costa Rica.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356765",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_4",
+    "content": "User successfully photographed a quetzal.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356769",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_5",
+    "content": "User visited the cloud forests of Monteverde in Costa Rica.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356773",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_6",
+    "content": "User owns a telephoto lens.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356776",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_7",
+    "content": "User found lighting tricky for their telephoto lens in Monteverde due to dense canopy.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356780",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_8",
+    "content": "User plans to visit the Amazon rainforest next year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356783",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_9",
+    "content": "User's goal for the Amazon trip is to capture unique bird species.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356787",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_10",
+    "content": "User's goal for the Amazon trip includes photographing macaws.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356791",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_11",
+    "content": "User's goal for the Amazon trip includes photographing toucans.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356794",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235095_12",
+    "content": "User wants to explore different ecosystems.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:15.356798",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235106_3",
+    "content": "User's favorite author is Brandon Sanderson.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:26.997430",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235106_4",
+    "content": "User's top series is 'The Stormlight Archive'.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:26.997434",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235106_6",
+    "content": "User mostly bakes cakes and cookies.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:26.997442",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235106_7",
+    "content": "User's specialty is a chocolate lava cake.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:26.997446",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235113_1",
+    "content": "User enjoys cyberpunk.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:33.488787",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235113_2",
+    "content": "User enjoys authors like William Gibson.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:33.488793",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235128_0",
+    "content": "User's current residence is Boston.",
+    "extracted_from": "turn_8",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:48.131222",
+    "is_update": true,
+    "previous_value": "User's current residence is New York City.",
+    "updated_from": "turn_8"
+  },
+  {
+    "fact_id": "f_1758235128_1",
+    "content": "User prefers making savory sourdough creations.",
+    "extracted_from": "turn_8",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584759",
+    "is_update": false,
+    "previous_value": "User's current favorite type of dessert to bake is elaborate layered cakes.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235128_2",
+    "content": "User recently moved out of New York City last month.",
+    "extracted_from": "turn_8",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:08:48.131218",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235128_5",
+    "content": "User just started a small vegetable patch this spring.",
+    "extracted_from": "turn_8",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584776",
+    "is_update": false,
+    "previous_value": "User has a small garden.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235148_0",
+    "content": "User mostly sticks to mountain trails.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:08.311196",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235158_0",
+    "content": "User's first name is Sarah.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:11.458253",
+    "is_update": true,
+    "previous_value": "User's first name is Clara.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235158_1",
+    "content": "User is interested in learning about AI.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:18.902049",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235158_2",
+    "content": "User's current residence is Seattle.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:18.902053",
+    "is_update": true,
+    "previous_value": "User moved to Dallas last week"
+  },
+  {
+    "fact_id": "f_1758235158_3",
+    "content": "User's favorite color is green.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:18.902058",
+    "is_update": true,
+    "previous_value": "User's favorite color is blue"
+  },
+  {
+    "fact_id": "f_1758235158_4",
+    "content": "User has a pet cat named Luna.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:18.902062",
+    "is_update": true,
+    "previous_value": "User's cat's name is Mittens"
+  },
+  {
+    "fact_id": "f_1758235182_1",
+    "content": "User is passionate about gardening.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:09:42.713932",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235182_2",
+    "content": "User grows vegetables.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:09:42.713936",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235182_3",
+    "content": "User is growing tomatoes this year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584781",
+    "is_update": false,
+    "previous_value": "User grows tomatoes.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235182_4",
+    "content": "User grows peppers.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:09:42.713944",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235182_6",
+    "content": "User's dog Max loves to help in the garden.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:09:42.713952",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235182_7",
+    "content": "User's dog Max enjoys digging holes in the garden.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:09:42.713955",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235198_3",
+    "content": "Baking sourdough bread is user's weekend passion.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584755",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235198_5",
+    "content": "User loves experimenting with different flours for baking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584764",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235198_6",
+    "content": "User adds herbs from their garden to their baking.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584768",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235198_7",
+    "content": "User is trying to reduce their sugar intake.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584772",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235198_11",
+    "content": "User is growing garlic this year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584790",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235198_12",
+    "content": "User hopes to have a good harvest soon from their vegetable patch.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:09:58.584794",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235207_2",
+    "content": "User has a passion for playing the guitar.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:07.217812",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235207_4",
+    "content": "User works at TechSolutions.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:07.217821",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235221_4",
+    "content": "User lives in Denver.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796653",
+    "is_update": true,
+    "previous_value": "User's current residence is Denver, Colorado.",
+    "updated_from": "turn_4"
+  },
+  {
+    "fact_id": "f_1758235221_6",
+    "content": "User mostly plays acoustic guitar.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:10:21.012055",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235221_7",
+    "content": "User does not play electric guitar.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:10:21.012059",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235221_8",
+    "content": "User is looking for open mic nights.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:10:21.012063",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235232_0",
+    "content": "User's favorite director is Christopher Nolan.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:32.519662",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235232_1",
+    "content": "User's favorite Christopher Nolan film is 'Inception'.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:32.519686",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235232_3",
+    "content": "Cooking is user's passion.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:32.519702",
+    "is_update": false,
+    "previous_value": "User loves to cook in their free time.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235232_5",
+    "content": "User used to work as a software engineer.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:32.519707",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235248_0",
+    "content": "User is planning a trip to capture mountain scenery.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:10:48.226756",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235248_1",
+    "content": "User is going to the Swiss Alps for their trip.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:48.226778",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235248_2",
+    "content": "User has always wanted to photograph in the Swiss Alps.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:10:48.226783",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235248_3",
+    "content": "User is excited to photograph glacial lakes in the Swiss Alps.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:10:48.226788",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235248_4",
+    "content": "User uses a 24-70mm lens for landscape photography.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:48.226792",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235248_5",
+    "content": "User's trip to the Swiss Alps is in two months.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:10:48.226796",
+    "is_update": true,
+    "previous_value": "User's trip to the Swiss Alps is next month."
+  },
+  {
+    "fact_id": "f_1758235263_0",
+    "content": "User's first name is Alex.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244319",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_1",
+    "content": "User is really into photography.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244339",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_2",
+    "content": "User is really into landscape photography.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244344",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_3",
+    "content": "User lives in Seattle.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244349",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_4",
+    "content": "User's favorite season for photography is autumn.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244370",
+    "is_update": false,
+    "previous_value": "User's favorite season is autumn.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235263_5",
+    "content": "User loves Olympic National Park.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244358",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_6",
+    "content": "User prefers living in a place with more sunshine.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244362",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_7",
+    "content": "User is planning to move to San Diego next year.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244366",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_9",
+    "content": "User's absolute favorite season overall is summer.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244374",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_10",
+    "content": "User prefers summer for the warmth.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244379",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235263_11",
+    "content": "User prefers summer for the long days.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:03.244382",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235271_2",
+    "content": "User is looking forward to exploring Austin.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:11.458278",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235271_4",
+    "content": "User especially likes tacos.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:11.458286",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235271_5",
+    "content": "User is always on the lookout for the best taco spots.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:11:11.458290",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_0",
+    "content": "User lives close to the Appalachian Mountains.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.060960",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_1",
+    "content": "Hiking helps user clear their head.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.060982",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_2",
+    "content": "Hiking helps user stay active.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.060988",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_3",
+    "content": "User is training for a trail marathon next year.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061040",
+    "is_update": false,
+    "previous_value": "User is hoping to run a marathon next year.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235280_4",
+    "content": "Hiking is helping user with their endurance for the marathon.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.060996",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_5",
+    "content": "User has an uncle.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061001",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_6",
+    "content": "User's uncle was a huge inspiration.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061006",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_7",
+    "content": "User's uncle always said the best training was in the hills.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061010",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_8",
+    "content": "User's uncle was a Shenandoah park ranger.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061046",
+    "is_update": false,
+    "previous_value": "User's uncle used to be a park ranger.",
+    "updated_from": "turn_6"
+  },
+  {
+    "fact_id": "f_1758235280_9",
+    "content": "User's uncle was a big proponent of trail running.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061019",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_10",
+    "content": "User's uncle taught user a lot about navigating different terrains.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061024",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_11",
+    "content": "User's uncle spent most of his career in Shenandoah National Park.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061028",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_12",
+    "content": "User's uncle knew the trails in Shenandoah National Park very well.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061032",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_13",
+    "content": "User prefers trails over pavement for running.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061036",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235280_16",
+    "content": "User's uncle was a trail runner.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:20.061050",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235290_0",
+    "content": "User finished a pottery class.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:30.111032",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235290_1",
+    "content": "User made a Raku vase.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:30.111052",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235290_2",
+    "content": "The Raku vase is user's first piece using the Raku technique.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:30.111057",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235290_3",
+    "content": "User is proud of the Raku vase they made.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:30.111061",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235290_4",
+    "content": "User is fascinated by Japanese aesthetics.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:30.111065",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235290_5",
+    "content": "Learning about Raku deepened user's fascination with Japanese aesthetics.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:30.111069",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235290_6",
+    "content": "User's motivation for visiting Japan includes experiencing Japanese aesthetics firsthand.",
+    "extracted_from": "turn_6",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:30.111073",
+    "is_update": true,
+    "previous_value": "User is planning a trip to Japan next spring; User is leaning towards Japan for their Asia trip; User is planning to visit Japan in late March or early April."
+  },
+  {
+    "fact_id": "f_1758235307_2",
+    "content": "User is a coffee enthusiast.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:47.234490",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235307_4",
+    "content": "User is looking for local bookstores in Seattle.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:47.234498",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235307_5",
+    "content": "User is looking for local coffee shops in Seattle.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:11:47.234502",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235331_3",
+    "content": "User is a big fan of snowboarding.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:12:11.272954",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235331_4",
+    "content": "User enjoys snowboarding in the winter.",
+    "extracted_from": "turn_6",
+    "confidence": 1.0,
+    "timestamp": "2025-09-19T02:12:11.272958",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235334_1",
+    "content": "User is really into astrophotography lately.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796605",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235334_2",
+    "content": "User's favorite constellation to capture is Orion.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796611",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235334_3",
+    "content": "User recently got a new telescope.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796629",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235334_4",
+    "content": "User's new telescope is specifically for deep-sky objects.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796634",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235334_5",
+    "content": "User drives about an hour east of their city to a state park for astrophotography.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796638",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235334_6",
+    "content": "The state park user visits for astrophotography is known for its minimal light pollution.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796643",
+    "is_update": false
+  },
+  {
+    "fact_id": "f_1758235334_7",
+    "content": "User captures nebulae and galaxies.",
+    "extracted_from": "turn_4",
+    "confidence": 0.95,
+    "timestamp": "2025-09-19T02:12:14.796648",
+    "is_update": false
+  }
+]
