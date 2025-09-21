@@ -1,9 +1,10 @@
 import os
 import yaml
 from src.extractor import MemoryExtractor
-from src.store import MemoryStore
+from src.store import SimpleJsonStore
 from src.retriever import Retriever
 from typing import List, Dict, Any, Tuple
+
 
 class MemorySystem:
     def __init__(self, config_path: str = "configs/config.yaml"):
@@ -18,8 +19,9 @@ class MemorySystem:
             model=self.config["api"]["chat_model"]
         )
 
-        self.store = MemoryStore(
-            store_path=self.config["memory"]["store_path"])
+        self.store = SimpleJsonStore(
+            store_path=self.config["memory"]["store_path"]
+        )
 
         self.retriever = Retriever(
             api_key=self.config["api"]["api_key"],
@@ -35,7 +37,9 @@ class MemorySystem:
 
         # Extract new facts
         new_memories = self.extractor.extract_facts(
-            conversation, existing_memories)
+            conversation,
+            existing_memories
+        )
 
         # Add to store
         for memory in new_memories:
@@ -53,6 +57,9 @@ class MemorySystem:
 
         # Retrieve relevant memories
         relevant_memories = self.retriever.retrieve_memories(
-            query, all_memories, top_k)
+            query,
+            all_memories,
+            top_k
+        )
 
         return relevant_memories

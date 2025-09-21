@@ -1,7 +1,7 @@
 import os
 import yaml
 from src.extractor import MemoryExtractor
-from src.store import MemoryStore
+from src.store import SimpleJsonStore
 from src.retriever import Retriever
 from benchmark.generate_data import ConversationGenerator
 from benchmark.evaluate import Evaluator

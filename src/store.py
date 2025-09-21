@@ -5,7 +5,7 @@ from typing import Dict, List, Any, Optional
 from datetime import datetime
 
 
-class MemoryStore:
+class SimpleJsonStore:
     def __init__(self, store_path: str):
         self.store_path = store_path
         self.memories = []

@@ -32,8 +32,7 @@ class Retriever:
         memory_embeddings = []
         for memory in memories:
             # Use memory content for embedding
-            content = memory["content"]
-            embedding = self.get_embedding(content)
+            embedding = self.get_embedding(memory["content"])
             memory_embeddings.append(embedding)
 
         # Calculate similarity scores
@@ -63,12 +62,13 @@ class Retriever:
         memory_embeddings = []
 
         for memory in memories:
-            content = memory["content"]
-            embedding = self.get_embedding(content)
+            embedding = self.get_embedding(memory["content"])
             memory_embeddings.append(embedding)
 
         embedding_similarities = cosine_similarity(
-            [query_embedding], memory_embeddings)[0]
+            [query_embedding],
+            memory_embeddings
+        )[0]
 
         # Get keyword-based scores
         query_lower = query.lower()
