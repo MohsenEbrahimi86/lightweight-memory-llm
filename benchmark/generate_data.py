@@ -1,4 +1,4 @@
-import json
+import orjson as json
 import openai
 import random
 from typing import List, Dict, Any
@@ -87,9 +87,7 @@ class ConversationGenerator:
             # Format conversation for context
             conversation_text = ""
             for turn in conversation["turns"]:
-                role = turn["role"]
-                content = turn["content"]
-                conversation_text += f"{role.capitalize()}: {content}\n"
+                conversation_text += f"{turn['role'].capitalize()}: {turn['content']}\n"
 
             # Create prompt for expected memory generation
             prompt = f"""

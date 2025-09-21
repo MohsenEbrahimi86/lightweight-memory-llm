@@ -1,4 +1,4 @@
-import json
+import orjson as json
 import openai
 import time
 from datetime import datetime
