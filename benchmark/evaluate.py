@@ -7,14 +7,19 @@ from typing import List, Dict, Any, Tuple
 from sklearn.metrics import precision_recall_fscore_support
 import os
 
+from keyword_matching_retriever import KeywordMatchingRetriever
+
 
 class Evaluator:
     def __init__(self, results_path: str = "benchmark/results/"):
         self.results_path = results_path
         os.makedirs(results_path, exist_ok=True)
 
-    def evaluate_extraction_quality(self, expected_memories: List[Dict[str, Any]],
-                                    extracted_memories: List[Dict[str, Any]]) -> Dict[str, float]:
+    def evaluate_extraction_quality(
+            self,
+            expected_memories: List[Dict[str, Any]],
+            extracted_memories: List[Dict[str, Any]]
+    ) -> Dict[str, float]:
         """Evaluate the quality of memory extraction"""
         # Group memories by conversation
         expected_by_conv = {}
@@ -188,21 +193,28 @@ class Evaluator:
             "total_memory_pairs": total_pairs
         }
 
-    def run_full_evaluation(self, memory_system, conversations: List[Dict[str, Any]],
-                            expected_memories: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def run_full_evaluation(
+            self,
+            memory_system,
+            conversations: List[Dict[str, Any]],
+            expected_memories: List[Dict[str, Any]]
+    ) -> Dict[str, Any]:
         """Run a full evaluation of the memory system"""
         # Test extraction
         all_extracted_memories = []
         for i, conversation in enumerate(conversations):
             extracted = memory_system.extractor.extract_facts(
                 conversation["turns"])
+
             for mem in extracted:
                 mem["conversation_index"] = i
             all_extracted_memories.extend(extracted)
 
         # Evaluate extraction quality
         extraction_metrics = self.evaluate_extraction_quality(
-            expected_memories, all_extracted_memories)
+            expected_memories,
+            all_extracted_memories
+        )
 
         # Test retrieval
         queries = []
@@ -232,12 +244,17 @@ class Evaluator:
             # Retrieve memories using the system
             all_stored_memories = memory_system.store.get_all_memories()
             retrieved = memory_system.retriever.retrieve_memories(
-                query, all_stored_memories)
+                query,
+                all_stored_memories
+            )
             retrieved_memories_list.append(retrieved)
 
         # Evaluate retrieval precision
         retrieval_metrics = self.evaluate_retrieval_precision(
-            queries, retrieved_memories_list, relevant_memories_list)
+            queries,
+            retrieved_memories_list,
+            relevant_memories_list
+        )
 
         # Test updates
         # Create some test conversations with updates
@@ -307,35 +324,16 @@ class Evaluator:
             memory_system, conversations, expected_memories)
 
         # Create a simple baseline (keyword matching)
-        class BaselineRetriever:
-            def retrieve_memories(self, query: str, memories: List[Dict[str, Any]], top_k: int = 5):
-                query_lower = query.lower()
-                results = []
-
-                for memory in memories:
-                    content = memory["content"].lower()
-                    # Simple keyword matching
-                    matches = sum(1 for word in query_lower.split()
-                                  if word in content)
-                    relevance = matches / \
-                        len(query_lower.split()) if query_lower.split() else 0
-
-                    results.append({
-                        **memory,
-                        "relevance_score": relevance
-                    })
-
-                # Sort by relevance and return top-k
-                results.sort(key=lambda x: x["relevance_score"], reverse=True)
-                return results[:top_k]
-
         # Replace the retriever with baseline
         original_retriever = memory_system.retriever
-        memory_system.retriever = BaselineRetriever()
+        memory_system.retriever = KeywordMatchingRetriever()
 
         # Evaluate baseline
         baseline_results = self.run_full_evaluation(
-            memory_system, conversations, expected_memories)
+            memory_system,
+            conversations,
+            expected_memories
+        )
 
         # Restore original retriever
         memory_system.retriever = original_retriever

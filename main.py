@@ -40,7 +40,10 @@ def main():
     # Evaluate memory system
     print("Evaluating memory system...")
     evaluation_results = evaluator.run_full_evaluation(
-        memory_system, conversations, expected_memories)
+        memory_system,
+        conversations,
+        expected_memories
+    )
 
     # Compare with baseline
     print("Comparing with baseline...")
