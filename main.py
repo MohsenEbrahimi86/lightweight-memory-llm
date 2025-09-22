@@ -34,7 +34,7 @@ def main():
     # Process conversations with memory system
     print("Processing conversations with memory system...")
     for i, conversation in enumerate(conversations):
-        print(f"Processing conversation {i+1}/{len(conversations)}...")
+        print(f"Processing conversation {i + 1}/{len(conversations)}...")
         memory_system.process_conversation(conversation["turns"])
 
     # Evaluate memory system
