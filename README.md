@@ -17,7 +17,7 @@ The memory system consists of three main components:
 3. **Retriever**: Uses embedding-based similarity search to return relevant memories for a given query.
 
 ## Project Structure
-
+```
 repo/
 ├── README.md
 ├── main.py
@@ -37,6 +37,7 @@ repo/
 │ └── demo_notebook.ipynb
 ├── data/
 └── requirements.txt
+```
 
 ## Setup Instructions
 
