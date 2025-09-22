@@ -1,0 +1,24 @@
+{
+  "extraction_quality": {
+    "precision": 0.5021123876123876,
+    "recall": 0.5352953712953713,
+    "f1_score": 0.5164273639546104
+  },
+  "retrieval_precision": {
+    "precision_at_k": 0.008,
+    "recall": 0.004,
+    "f1_score": 0.005333333333333333,
+    "ndcg": 0.005690285869123425
+  },
+  "update_accuracy": {
+    "update_accuracy": 0.0,
+    "correct_updates": 0,
+    "total_updates": 3
+  },
+  "memory_consistency": {
+    "consistency_score": 0.9995996068867615,
+    "contradictions": 20,
+    "duplicates": 2,
+    "total_memory_pairs": 54946.0
+  }
+}
