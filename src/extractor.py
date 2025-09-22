@@ -19,18 +19,21 @@ class MemoryExtractor:
         Extract key facts from a conversation, handling both new facts and updates to existing facts.
         """
         # Format existing memories for context
-        existing_context = ""
         if existing_memories:
-            existing_context = "\n\nExisting memories:\n"
-            for memory in existing_memories:
-                existing_context += f"- {memory['content']}\n"
+            memory_lines = [f"- {memory['content']}" for memory in existing_memories]
+            existing_context = "\n\nExisting memories:\n" + "\n".join(memory_lines)
+        else:
+            existing_context = ""
 
         # Format conversation for context
-        conversation_text = ""
-        for i, turn in enumerate(conversation):
-            role = turn["role"]
-            content = turn["content"]
-            conversation_text += f"{role.capitalize()}: {content}\n"
+        if conversation:
+            lines = [
+                f"{turn.get('role', '').capitalize()}: {turn.get('content', '')}"
+                for turn in conversation
+            ]
+            conversation_text = "\n".join(lines) + "\n"
+        else:
+            conversation_text = ""
 
         # Create the prompt for fact extraction
         prompt = f"""
@@ -69,25 +72,22 @@ class MemoryExtractor:
             result = json.loads(response_content)
 
             # Process the extracted facts and add metadata
-            memories = []
-            for i, fact in enumerate(result["facts"]):
-                memory = {
-                    "fact_id": f"f_{int(time.time())}_{i}",
+            current_time = int(time.time())
+            current_turn = f"turn_{len(conversation)}"
+            now_iso = datetime.now().isoformat()
+
+            memories = [
+                {
+                    "fact_id": f"f_{current_time}_{i}",
                     "content": fact["content"],
-                    "extracted_from": f"turn_{len(conversation)}",
+                    "extracted_from": current_turn,
                     "confidence": fact["confidence"],
-                    "timestamp": datetime.now().isoformat(),
+                    "timestamp": now_iso,
                     "is_update": fact["is_update"],
+                    **({"previous_value": fact["previous_value"]} if fact.get("is_update") and fact.get("previous_value") else {}),
                 }
-
-                if (
-                    fact["is_update"]
-                    and "previous_value" in fact
-                    and fact["previous_value"]
-                ):
-                    memory["previous_value"] = fact["previous_value"]
-
-                memories.append(memory)
+                for i, fact in enumerate(result["facts"])
+            ]
 
             return memories
 
