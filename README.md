@@ -36,6 +36,9 @@ repo/
 ├── demo/
 │ └── demo_notebook.ipynb
 ├── data/
+│ ├── conversations.json
+│ ├── expected_memories.json
+│ └── memory_store.json
 └── requirements.txt
 ```
 
