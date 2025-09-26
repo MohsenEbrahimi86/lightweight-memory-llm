@@ -15,7 +15,7 @@ class SimpleJsonStore:
         """Load memories from file if it exists"""
         if os.path.exists(self.store_path):
             try:
-                with open(self.store_path, 'r') as f:
+                with open(self.store_path, "r") as f:
                     self.memories = json.load(f)
             except Exception as e:
                 print(f"Error loading memory store: {e}")
@@ -24,7 +24,7 @@ class SimpleJsonStore:
     def _save_store(self):
         """Save memories to file"""
         os.makedirs(os.path.dirname(self.store_path), exist_ok=True)
-        with open(self.store_path, 'w') as f:
+        with open(self.store_path, "w") as f:
             json.dump(self.memories, f, indent=2)
 
     def add_memory(self, memory: Dict[str, Any]) -> str:
@@ -43,7 +43,7 @@ class SimpleJsonStore:
                         "confidence": memory["confidence"],
                         "timestamp": memory["timestamp"],
                         "previous_value": memory["previous_value"],
-                        "updated_from": memory["extracted_from"]
+                        "updated_from": memory["extracted_from"],
                     }
                     self._save_store()
                     return self.memories[i]["fact_id"]

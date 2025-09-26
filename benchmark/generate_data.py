@@ -9,7 +9,9 @@ class ConversationGenerator:
         self.client = openai.OpenAI(api_key=api_key, base_url=base_url)
         self.model = model
 
-    def generate_conversations(self, num_conversations: int = 50, output_path: str = "data/conversations.json") -> List[Dict[str, Any]]:
+    def generate_conversations(
+        self, num_conversations: int = 50, output_path: str = "data/conversations.json"
+    ) -> List[Dict[str, Any]]:
         """Generate synthetic conversations for benchmarking"""
         conversations = []
 
@@ -17,7 +19,7 @@ class ConversationGenerator:
         scenarios = [
             "Simple fact storage and retrieval",
             "Fact updates and corrections",
-            "Multi-hop reasoning, where facts relate to each other"
+            "Multi-hop reasoning, where facts relate to each other",
         ]
 
         for i in range(num_conversations):
@@ -52,7 +54,7 @@ class ConversationGenerator:
                     model=self.model,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.8,
-                    response_format={"type": "json_object"}
+                    response_format={"type": "json_object"},
                 )
 
                 conversation = json.loads(response.choices[0].message.content)
@@ -61,25 +63,36 @@ class ConversationGenerator:
             except Exception as e:
                 print(f"Error generating conversation {i}: {e}")
                 # Add a simple fallback conversation
-                conversations.append({
-                    "scenario": scenario,
-                    "turns": [
-                        {"role": "user",
-                            "content": "My name is John and I live in New York."},
-                        {"role": "assistant",
-                            "content": "Nice to meet you, John! How do you like living in New York?"}
-                    ]
-                })
+                conversations.append(
+                    {
+                        "scenario": scenario,
+                        "turns": [
+                            {
+                                "role": "user",
+                                "content": "My name is John and I live in New York.",
+                            },
+                            {
+                                "role": "assistant",
+                                "content": "Nice to meet you, John! How do you like living in New York?",
+                            },
+                        ],
+                    }
+                )
 
         # Save conversations to file
-        with open(output_path, 'w') as f:
+        with open(output_path, "w") as f:
             json.dump(conversations, f, indent=2)
 
         print(
-            f"Generated {len(conversations)} conversations and saved to {output_path}")
+            f"Generated {len(conversations)} conversations and saved to {output_path}"
+        )
         return conversations
 
-    def generate_expected_memories(self, conversations: List[Dict[str, Any]], output_path: str = "data/expected_memories.json") -> List[Dict[str, Any]]:
+    def generate_expected_memories(
+        self,
+        conversations: List[Dict[str, Any]],
+        output_path: str = "data/expected_memories.json",
+    ) -> List[Dict[str, Any]]:
         """Generate expected memories for each conversation to use as ground truth"""
         all_expected_memories = []
 
@@ -114,7 +127,7 @@ class ConversationGenerator:
                     model=self.model,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.2,
-                    response_format={"type": "json_object"}
+                    response_format={"type": "json_object"},
                 )
 
                 result = json.loads(response.choices[0].message.content)
@@ -127,13 +140,13 @@ class ConversationGenerator:
                 all_expected_memories.extend(result["expected_memories"])
 
             except Exception as e:
-                print(
-                    f"Error generating expected memories for conversation {i}: {e}")
+                print(f"Error generating expected memories for conversation {i}: {e}")
 
         # Save expected memories to file
-        with open(output_path, 'w') as f:
+        with open(output_path, "w") as f:
             json.dump(all_expected_memories, f, indent=2)
 
         print(
-            f"Generated {len(all_expected_memories)} expected memories and saved to {output_path}")
+            f"Generated {len(all_expected_memories)} expected memories and saved to {output_path}"
+        )
         return all_expected_memories

@@ -16,9 +16,9 @@ class Evaluator:
         os.makedirs(results_path, exist_ok=True)
 
     def evaluate_extraction_quality(
-            self,
-            expected_memories: List[Dict[str, Any]],
-            extracted_memories: List[Dict[str, Any]]
+        self,
+        expected_memories: List[Dict[str, Any]],
+        extracted_memories: List[Dict[str, Any]],
     ) -> Dict[str, float]:
         """Evaluate the quality of memory extraction"""
         # Group memories by conversation
@@ -80,21 +80,23 @@ class Evaluator:
         avg_recall = np.mean(all_recalls)
         avg_f1 = np.mean(all_f1s)
 
-        return {
-            "precision": avg_precision,
-            "recall": avg_recall,
-            "f1_score": avg_f1
-        }
+        return {"precision": avg_precision, "recall": avg_recall, "f1_score": avg_f1}
 
-    def evaluate_retrieval_precision(self, queries: List[str], retrieved_memories: List[List[Dict[str, Any]]],
-                                     relevant_memories: List[List[Dict[str, Any]]]) -> Dict[str, float]:
+    def evaluate_retrieval_precision(
+        self,
+        queries: List[str],
+        retrieved_memories: List[List[Dict[str, Any]]],
+        relevant_memories: List[List[Dict[str, Any]]],
+    ) -> Dict[str, float]:
         """Evaluate the precision of memory retrieval"""
         all_precisions = []
         all_recalls = []
         all_f1s = []
         all_ndcgs = []
 
-        for i, (query, retrieved, relevant) in enumerate(zip(queries, retrieved_memories, relevant_memories)):
+        for i, (query, retrieved, relevant) in enumerate(
+            zip(queries, retrieved_memories, relevant_memories)
+        ):
             # Convert to binary relevance (1 if relevant, 0 otherwise)
             y_true = [1] * len(relevant)
             y_pred = [0] * len(relevant)
@@ -103,7 +105,7 @@ class Evaluator:
             for j, ret_mem in enumerate(retrieved):
                 for rel_mem in relevant:
                     if self._is_similar_content(ret_mem["content"], rel_mem["content"]):
-                        y_pred[min(j, len(y_pred)-1)] = 1
+                        y_pred[min(j, len(y_pred) - 1)] = 1
                         break
 
             # Calculate precision at k
@@ -136,11 +138,14 @@ class Evaluator:
             "precision_at_k": avg_precision,
             "recall": avg_recall,
             "f1_score": avg_f1,
-            "ndcg": avg_ndcg
+            "ndcg": avg_ndcg,
         }
 
-    def evaluate_update_accuracy(self, original_memories: List[Dict[str, Any]],
-                                 updated_memories: List[Dict[str, Any]]) -> Dict[str, float]:
+    def evaluate_update_accuracy(
+        self,
+        original_memories: List[Dict[str, Any]],
+        updated_memories: List[Dict[str, Any]],
+    ) -> Dict[str, float]:
         """Evaluate the accuracy of memory updates"""
         correct_updates = 0
         total_updates = len(updated_memories)
@@ -149,7 +154,9 @@ class Evaluator:
             # Find the corresponding original memory
             original_found = False
             for original_mem in original_memories:
-                if self._is_similar_content(original_mem["content"], updated_mem.get("previous_value", "")):
+                if self._is_similar_content(
+                    original_mem["content"], updated_mem.get("previous_value", "")
+                ):
                     original_found = True
                     break
 
@@ -161,19 +168,23 @@ class Evaluator:
         return {
             "update_accuracy": accuracy,
             "correct_updates": correct_updates,
-            "total_updates": total_updates
+            "total_updates": total_updates,
         }
 
-    def evaluate_memory_consistency(self, memories: List[Dict[str, Any]]) -> Dict[str, float]:
+    def evaluate_memory_consistency(
+        self, memories: List[Dict[str, Any]]
+    ) -> Dict[str, float]:
         """Evaluate the consistency of memories (custom metric)"""
         # Check for duplicate or contradictory memories
         contradictions = 0
         duplicates = 0
 
         for i, mem1 in enumerate(memories):
-            for j, mem2 in enumerate(memories[i+1:], i+1):
+            for j, mem2 in enumerate(memories[i + 1 :], i + 1):
                 # Check for duplicates (very similar content)
-                if self._is_similar_content(mem1["content"], mem2["content"], threshold=0.9):
+                if self._is_similar_content(
+                    mem1["content"], mem2["content"], threshold=0.9
+                ):
                     duplicates += 1
 
                 # Check for contradictions (e.g., "works at X" vs "works at Y")
@@ -182,29 +193,28 @@ class Evaluator:
 
         # Calculate consistency score (1 - normalized contradictions and duplicates)
         total_pairs = len(memories) * (len(memories) - 1) / 2
-        consistency_score = 1 - \
-            (contradictions + duplicates) / \
-            total_pairs if total_pairs > 0 else 1
+        consistency_score = (
+            1 - (contradictions + duplicates) / total_pairs if total_pairs > 0 else 1
+        )
 
         return {
             "consistency_score": consistency_score,
             "contradictions": contradictions,
             "duplicates": duplicates,
-            "total_memory_pairs": total_pairs
+            "total_memory_pairs": total_pairs,
         }
 
     def run_full_evaluation(
-            self,
-            memory_system,
-            conversations: List[Dict[str, Any]],
-            expected_memories: List[Dict[str, Any]]
+        self,
+        memory_system,
+        conversations: List[Dict[str, Any]],
+        expected_memories: List[Dict[str, Any]],
     ) -> Dict[str, Any]:
         """Run a full evaluation of the memory system"""
         # Test extraction
         all_extracted_memories = []
         for i, conversation in enumerate(conversations):
-            extracted = memory_system.extractor.extract_facts(
-                conversation["turns"])
+            extracted = memory_system.extractor.extract_facts(conversation["turns"])
 
             for mem in extracted:
                 mem["conversation_index"] = i
@@ -212,8 +222,7 @@ class Evaluator:
 
         # Evaluate extraction quality
         extraction_metrics = self.evaluate_extraction_quality(
-            expected_memories,
-            all_extracted_memories
+            expected_memories, all_extracted_memories
         )
 
         # Test retrieval
@@ -238,22 +247,20 @@ class Evaluator:
 
             # Get relevant memories for this conversation
             relevant = [
-                mem for mem in expected_memories if mem["conversation_index"] == i]
+                mem for mem in expected_memories if mem["conversation_index"] == i
+            ]
             relevant_memories_list.append(relevant)
 
             # Retrieve memories using the system
             all_stored_memories = memory_system.store.get_all_memories()
             retrieved = memory_system.retriever.retrieve_memories(
-                query,
-                all_stored_memories
+                query, all_stored_memories
             )
             retrieved_memories_list.append(retrieved)
 
         # Evaluate retrieval precision
         retrieval_metrics = self.evaluate_retrieval_precision(
-            queries,
-            retrieved_memories_list,
-            relevant_memories_list
+            queries, retrieved_memories_list, relevant_memories_list
         )
 
         # Test updates
@@ -262,19 +269,26 @@ class Evaluator:
             {
                 "turns": [
                     {"role": "user", "content": "I work at Google."},
-                    {"role": "assistant",
-                        "content": "That's interesting! What do you do at Google?"},
-                    {"role": "user", "content": "Actually, I just started working at Microsoft."}
+                    {
+                        "role": "assistant",
+                        "content": "That's interesting! What do you do at Google?",
+                    },
+                    {
+                        "role": "user",
+                        "content": "Actually, I just started working at Microsoft.",
+                    },
                 ]
             },
             {
                 "turns": [
                     {"role": "user", "content": "I live in New York."},
-                    {"role": "assistant",
-                        "content": "How do you like living in New York?"},
-                    {"role": "user", "content": "I recently moved to Boston."}
+                    {
+                        "role": "assistant",
+                        "content": "How do you like living in New York?",
+                    },
+                    {"role": "user", "content": "I recently moved to Boston."},
                 ]
-            }
+            },
         ]
 
         original_memories = []
@@ -282,18 +296,17 @@ class Evaluator:
 
         for conversation in update_conversations:
             # Extract original facts
-            original = memory_system.extractor.extract_facts(
-                conversation["turns"][:2])
+            original = memory_system.extractor.extract_facts(conversation["turns"][:2])
             original_memories.extend(original)
 
             # Extract updated facts
-            updated = memory_system.extractor.extract_facts(
-                conversation["turns"])
+            updated = memory_system.extractor.extract_facts(conversation["turns"])
             updated_memories.extend(updated)
 
         # Evaluate update accuracy
         update_metrics = self.evaluate_update_accuracy(
-            original_memories, updated_memories)
+            original_memories, updated_memories
+        )
 
         # Evaluate memory consistency
         all_memories = memory_system.store.get_all_memories()
@@ -304,11 +317,11 @@ class Evaluator:
             "extraction_quality": extraction_metrics,
             "retrieval_precision": retrieval_metrics,
             "update_accuracy": update_metrics,
-            "memory_consistency": consistency_metrics
+            "memory_consistency": consistency_metrics,
         }
 
         # Save results
-        with open(f"{self.results_path}evaluation_results.json", 'w') as f:
+        with open(f"{self.results_path}evaluation_results.json", "w") as f:
             json.dump(all_metrics, f, indent=2)
 
         # Create visualizations
@@ -316,12 +329,17 @@ class Evaluator:
 
         return all_metrics
 
-    def compare_with_baseline(self, memory_system, conversations: List[Dict[str, Any]],
-                              expected_memories: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def compare_with_baseline(
+        self,
+        memory_system,
+        conversations: List[Dict[str, Any]],
+        expected_memories: List[Dict[str, Any]],
+    ) -> Dict[str, Any]:
         """Compare the memory system with a baseline (simple keyword matching)"""
         # Evaluate our system
         system_results = self.run_full_evaluation(
-            memory_system, conversations, expected_memories)
+            memory_system, conversations, expected_memories
+        )
 
         # Create a simple baseline (keyword matching)
         # Replace the retriever with baseline
@@ -330,9 +348,7 @@ class Evaluator:
 
         # Evaluate baseline
         baseline_results = self.run_full_evaluation(
-            memory_system,
-            conversations,
-            expected_memories
+            memory_system, conversations, expected_memories
         )
 
         # Restore original retriever
@@ -344,22 +360,21 @@ class Evaluator:
             comparison[metric] = {
                 "system": system_results[metric],
                 "baseline": baseline_results[metric],
-                "improvement": {}
+                "improvement": {},
             }
 
             for submetric in system_results[metric]:
                 sys_val = system_results[metric][submetric]
                 base_val = baseline_results[metric][submetric]
-                improvement = (sys_val - base_val) / \
-                    base_val if base_val != 0 else 0
+                improvement = (sys_val - base_val) / base_val if base_val != 0 else 0
 
                 comparison[metric]["improvement"][submetric] = {
                     "absolute": sys_val - base_val,
-                    "percent": improvement * 100
+                    "percent": improvement * 100,
                 }
 
         # Save comparison results
-        with open(f"{self.results_path}baseline_comparison.json", 'w') as f:
+        with open(f"{self.results_path}baseline_comparison.json", "w") as f:
             json.dump(comparison, f, indent=2)
 
         # Create comparison visualizations
@@ -367,7 +382,9 @@ class Evaluator:
 
         return comparison
 
-    def _is_similar_content(self, content1: str, content2: str, threshold: float = 0.7) -> bool:
+    def _is_similar_content(
+        self, content1: str, content2: str, threshold: float = 0.7
+    ) -> bool:
         """Check if two content strings are similar"""
         # Simple word overlap similarity
         words1 = set(content1.lower().split())
@@ -388,23 +405,31 @@ class Evaluator:
         contradictions = [
             ("work at", "work at"),
             ("live in", "live in"),
-            ("name is", "name is")
+            ("name is", "name is"),
         ]
 
         for trigger1, trigger2 in contradictions:
             if trigger1 in content1.lower() and trigger2 in content2.lower():
                 # Extract the values after the trigger
-                val1 = content1.lower().split(trigger1)[1].strip().split()[
-                    0] if trigger1 in content1.lower() else ""
-                val2 = content2.lower().split(trigger2)[1].strip().split()[
-                    0] if trigger2 in content2.lower() else ""
+                val1 = (
+                    content1.lower().split(trigger1)[1].strip().split()[0]
+                    if trigger1 in content1.lower()
+                    else ""
+                )
+                val2 = (
+                    content2.lower().split(trigger2)[1].strip().split()[0]
+                    if trigger2 in content2.lower()
+                    else ""
+                )
 
                 if val1 and val2 and val1 != val2:
                     return True
 
         return False
 
-    def _calculate_ndcg(self, retrieved: List[Dict[str, Any]], relevant: List[Dict[str, Any]]) -> float:
+    def _calculate_ndcg(
+        self, retrieved: List[Dict[str, Any]], relevant: List[Dict[str, Any]]
+    ) -> float:
         """Calculate Normalized Discounted Cumulative Gain (simplified version)"""
         # Create relevance scores (1 if relevant, 0 otherwise)
         relevance_scores = []
@@ -433,32 +458,32 @@ class Evaluator:
         """Create visualizations for evaluation metrics"""
         # Create a figure with subplots
         fig, axs = plt.subplots(2, 2, figsize=(15, 10))
-        fig.suptitle('Memory System Evaluation Results', fontsize=16)
+        fig.suptitle("Memory System Evaluation Results", fontsize=16)
 
         # Plot extraction quality
         extraction_metrics = metrics["extraction_quality"]
         axs[0, 0].bar(extraction_metrics.keys(), extraction_metrics.values())
-        axs[0, 0].set_title('Extraction Quality')
+        axs[0, 0].set_title("Extraction Quality")
         axs[0, 0].set_ylim(0, 1)
 
         # Plot retrieval precision
         retrieval_metrics = metrics["retrieval_precision"]
         axs[0, 1].bar(retrieval_metrics.keys(), retrieval_metrics.values())
-        axs[0, 1].set_title('Retrieval Precision')
+        axs[0, 1].set_title("Retrieval Precision")
         axs[0, 1].set_ylim(0, 1)
 
         # Plot update accuracy
         update_metrics = metrics["update_accuracy"]
-        axs[1, 0].bar(update_metrics.keys(), [
-                      update_metrics["update_accuracy"]])
-        axs[1, 0].set_title('Update Accuracy')
+        axs[1, 0].bar(update_metrics.keys(), [update_metrics["update_accuracy"]])
+        axs[1, 0].set_title("Update Accuracy")
         axs[1, 0].set_ylim(0, 1)
 
         # Plot memory consistency
         consistency_metrics = metrics["memory_consistency"]
-        axs[1, 1].bar(consistency_metrics.keys(), [
-                      consistency_metrics["consistency_score"]])
-        axs[1, 1].set_title('Memory Consistency')
+        axs[1, 1].bar(
+            consistency_metrics.keys(), [consistency_metrics["consistency_score"]]
+        )
+        axs[1, 1].set_title("Memory Consistency")
         axs[1, 1].set_ylim(0, 1)
 
         plt.tight_layout()
@@ -469,14 +494,14 @@ class Evaluator:
         """Create visualizations for baseline comparison"""
         # Create a figure with subplots
         fig, axs = plt.subplots(2, 2, figsize=(15, 10))
-        fig.suptitle('Memory System vs Baseline Comparison', fontsize=16)
+        fig.suptitle("Memory System vs Baseline Comparison", fontsize=16)
 
         # Flatten the metrics for easier plotting
         metrics_to_plot = [
             ("extraction_quality", "f1_score"),
             ("retrieval_precision", "precision_at_k"),
             ("update_accuracy", "update_accuracy"),
-            ("memory_consistency", "consistency_score")
+            ("memory_consistency", "consistency_score"),
         ]
 
         for i, (metric, submetric) in enumerate(metrics_to_plot):
@@ -486,16 +511,23 @@ class Evaluator:
             system_value = comparison[metric]["system"][submetric]
             baseline_value = comparison[metric]["baseline"][submetric]
 
-            axs[row, col].bar(["System", "Baseline"], [
-                              system_value, baseline_value])
+            axs[row, col].bar(["System", "Baseline"], [system_value, baseline_value])
             axs[row, col].set_title(
-                f'{metric.replace("_", " ").title()} - {submetric.replace("_", " ").title()}')
+                f"{metric.replace('_', ' ').title()} - {submetric.replace('_', ' ').title()}"
+            )
             axs[row, col].set_ylim(0, 1)
 
             # Add improvement percentage
             improvement = comparison[metric]["improvement"][submetric]["percent"]
-            axs[row, col].text(0.5, 0.9, f'{improvement:.1f}%', transform=axs[row, col].transAxes,
-                               ha='center', va='top', color='green' if improvement > 0 else 'red')
+            axs[row, col].text(
+                0.5,
+                0.9,
+                f"{improvement:.1f}%",
+                transform=axs[row, col].transAxes,
+                ha="center",
+                va="top",
+                color="green" if improvement > 0 else "red",
+            )
 
         plt.tight_layout()
         plt.savefig(f"{self.results_path}baseline_comparison.png")
