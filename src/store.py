@@ -15,8 +15,8 @@ class SimpleJsonStore:
         """Load memories from file if it exists"""
         if os.path.exists(self.store_path):
             try:
-                with open(self.store_path, "r") as f:
-                    self.memories = json.load(f)
+                with open(self.store_path, "rb") as f:
+                    self.memories = json.loads(f.read())
             except Exception as e:
                 print(f"Error loading memory store: {e}")
                 self.memories = []
