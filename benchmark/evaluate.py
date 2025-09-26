@@ -7,7 +7,7 @@ from typing import List, Dict, Any, Tuple
 from sklearn.metrics import precision_recall_fscore_support
 import os
 
-from keyword_matching_retriever import KeywordMatchingRetriever
+from src.keyword_matching_retriever import KeywordMatchingRetriever
 
 
 class Evaluator:
