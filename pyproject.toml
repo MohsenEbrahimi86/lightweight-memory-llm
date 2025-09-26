@@ -1,0 +1,47 @@
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    "data",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "__pycache__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+# Enable the formatter
+extend-include = ["*.py"]
+
+# You can also configure line length (default is 88, same as Black)
+line-length = 88
+
+[tool.ruff.format]
+# Use Black-compatible formatting
+preview = true  # Optional: enables newer formatting features
+
+# Quote style
+quote-style = "double"  # or "single"
+
+# Indent style
+indent-style = "space"  # or "tab"
