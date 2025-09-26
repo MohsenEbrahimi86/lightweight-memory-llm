@@ -84,7 +84,11 @@ class MemoryExtractor:
                     "confidence": fact["confidence"],
                     "timestamp": now_iso,
                     "is_update": fact["is_update"],
-                    **({"previous_value": fact["previous_value"]} if fact.get("is_update") and fact.get("previous_value") else {}),
+                    **(
+                        {"previous_value": fact["previous_value"]}
+                        if fact.get("is_update") and fact.get("previous_value")
+                        else {}
+                    ),
                 }
                 for i, fact in enumerate(result["facts"])
             ]

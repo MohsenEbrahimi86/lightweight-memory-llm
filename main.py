@@ -17,7 +17,7 @@ def main():
     generator = ConversationGenerator(
         api_key=memory_system.config["api"]["api_key"],
         base_url=memory_system.config["api"]["base_url"],
-        model=memory_system.config["api"]["chat_model"]
+        model=memory_system.config["api"]["chat_model"],
     )
 
     # Initialize evaluator
@@ -40,19 +40,17 @@ def main():
     # Evaluate memory system
     print("Evaluating memory system...")
     evaluation_results = evaluator.run_full_evaluation(
-        memory_system,
-        conversations,
-        expected_memories
+        memory_system, conversations, expected_memories
     )
 
     # Compare with baseline
     print("Comparing with baseline...")
     comparison_results = evaluator.compare_with_baseline(
-        memory_system, conversations, expected_memories)
+        memory_system, conversations, expected_memories
+    )
 
     print("Evaluation complete!")
-    print(
-        f"Results saved to {memory_system.config['benchmark']['results_path']}")
+    print(f"Results saved to {memory_system.config['benchmark']['results_path']}")
 
 
 if __name__ == "__main__":
