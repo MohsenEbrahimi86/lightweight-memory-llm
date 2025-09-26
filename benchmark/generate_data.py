@@ -63,21 +63,19 @@ class ConversationGenerator:
             except Exception as e:
                 print(f"Error generating conversation {i}: {e}")
                 # Add a simple fallback conversation
-                conversations.append(
-                    {
-                        "scenario": scenario,
-                        "turns": [
-                            {
-                                "role": "user",
-                                "content": "My name is John and I live in New York.",
-                            },
-                            {
-                                "role": "assistant",
-                                "content": "Nice to meet you, John! How do you like living in New York?",
-                            },
-                        ],
-                    }
-                )
+                conversations.append({
+                    "scenario": scenario,
+                    "turns": [
+                        {
+                            "role": "user",
+                            "content": "My name is John and I live in New York.",
+                        },
+                        {
+                            "role": "assistant",
+                            "content": "Nice to meet you, John! How do you like living in New York?",
+                        },
+                    ],
+                })
 
         # Save conversations to file
         with open(output_path, "w") as f:
