@@ -94,7 +94,7 @@ class ConversationGenerator:
                 with open(output_path, "rb") as f:
                     conversations = json.loads(f.read())
             except Exception as e:
-                print(f"Error loading memory store: {e}")
+                print(f"Error loading conversation file: {e}")
                 conversations = []
                 
         return conversations
@@ -169,7 +169,7 @@ class ConversationGenerator:
                 with open(output_path, "rb") as f:
                     all_expected_memories = json.loads(f.read())
             except Exception as e:
-                print(f"Error loading memory store: {e}")
+                print(f"Error loading expected memory file: {e}")
                 all_expected_memories = []
                 
         return all_expected_memories
