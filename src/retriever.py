@@ -48,9 +48,10 @@ class Retriever:
         # Add similarity scores to memories and sort
         memories_with_scores = []
         for i, memory in enumerate(memories):
-            memories_with_scores.append(
-                {**memory, "relevance_score": float(similarities[i])}
-            )
+            memories_with_scores.append({
+                **memory,
+                "relevance_score": float(similarities[i]),
+            })
 
         # Sort by relevance score (descending)
         memories_with_scores.sort(key=lambda x: x["relevance_score"], reverse=True)
@@ -107,14 +108,12 @@ class Retriever:
         # Add combined scores to memories and sort
         memories_with_scores = []
         for i, memory in enumerate(memories):
-            memories_with_scores.append(
-                {
-                    **memory,
-                    "relevance_score": float(combined_scores[i]),
-                    "embedding_score": float(embedding_similarities[i]),
-                    "keyword_score": float(keyword_scores[i]),
-                }
-            )
+            memories_with_scores.append({
+                **memory,
+                "relevance_score": float(combined_scores[i]),
+                "embedding_score": float(embedding_similarities[i]),
+                "keyword_score": float(keyword_scores[i]),
+            })
 
         # Sort by combined relevance score (descending)
         memories_with_scores.sort(key=lambda x: x["relevance_score"], reverse=True)
